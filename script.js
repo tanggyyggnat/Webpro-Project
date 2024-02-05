@@ -17,5 +17,9 @@ function toggleMenu(page) {
   fetchHtml(page);
 }
 
+function goLanding() {
+  window.location.replace("./landing/index.html");
+}
+
 toggleMenu("getting-start");
 fetchHtml("getting-start");
